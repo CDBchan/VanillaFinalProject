@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Momentum</title>
+  </head>
+
+  <body>
+    <div id="topBar"></div>
+    <div id="mainBar">
+      <h2 id="clock">00:00:00</h2>
+      <form id="login-form" class="hidden">
+        <input
+          id="login-form__input"
+          class="input-form"
+          required
+          maxlength="15"
+          type="text"
+          placeholder="What is your name?"
+          spellcheck="false"
+        />
+      </form>
+      <h1 id="greeting" class="hidden"></h1>
+      <div id="todo" class="hidden">
+        <form id="todo-form">
+          <input
+            class="input-form"
+            type="text"
+            placeholder="Write a Todo List"
+            required
+          />
+        </form>
+        <div>
+          <ul id="todo-list"></ul>
+        </div>
+      </div>
+    </div>
+    <div id="bottomBar">
+      <div id="bottomBar__search">
+        <form
+          action="https://www.google.com/search"
+          method="GET"
+          target="_blank"
+        >
+          <input
+            name="q"
+            id="bottomBar__search-input"
+            class="input-form"
+            required
+            maxlength="15"
+            type="text"
+            placeholder="Search on Google"
+            spellcheck="false"
+          />
+        </form>
+      </div>
+      <div id="quote">
+        <span></span>
+        <span></span>
+      </div>
+      <div id="weather">
+        <div id="weather__city"></div>
+        <span></span>
+      </div>
+    </div>
+
+    <script src="js/greetings.js"></script>
+    <script src="js/clock.js"></script>
+    <script src="js/quotes.js"></script>
+    <script src="js/background.js"></script>
+    <script src="js/todo.js"></script>
+    <script src="js/weather.js"></script>
+  </body>
+</html>

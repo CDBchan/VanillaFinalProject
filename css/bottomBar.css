@@ -1,0 +1,29 @@
+#bottomBar {
+  margin-bottom: 1%;
+  width: 99%;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#bottomBar__search-input {
+  height: 50px;
+  width: 250px;
+  margin-left: 20px;
+}
+#weather {
+  width: 260px;
+  margin-right: 10px;
+  text-align: center;
+}
+
+#todo-form input {
+  height: 50px;
+  width: 300px;
+  vertical-align: middle;
+}
+
+#weather__city {
+  margin-bottom: -10px;
+}

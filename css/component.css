@@ -1,0 +1,12 @@
+.input-form {
+  border: none;
+  border-bottom: 1px solid white;
+  background: transparent; /*input의 배경이 투명하게*/
+}
+
+.input-form:focus {
+  outline: none;
+  font-size: 30px;
+  color: white;
+  text-align: center;
+}

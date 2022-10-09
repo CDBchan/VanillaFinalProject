@@ -1,0 +1,15 @@
+@import "reset.css";
+@import "mainBar.css";
+@import "bottomBar.css";
+
+/*component*/
+@import "component.css";
+
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
