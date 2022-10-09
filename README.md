@@ -1,8 +1,5 @@
 # Vanilla Final Project
 
-<<<<<<< Updated upstream
-Html
-=======
 사용언어: html,css,js
 
 구현기능
@@ -13,4 +10,3 @@ Html
 4.todo: list를 사용하여 사용자가 입력한 할일의 목록을 보여준다.
 5.weather: 사용자의 위치를 받아 화면에 보여준다.
 6.search: 사용자의 입력을받아 google을 통해 검색해준다.
->>>>>>> Stashed changes
